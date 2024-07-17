@@ -5,7 +5,8 @@ import bcrypt from 'bcryptjs'
 import jwt from "jsonwebtoken";
 import { cookies } from 'next/headers'
 
-const DATABASE = "mongodb://127.0.0.1:27017/nextjs-gymgrow"
+// const DATABASE = "mongodb://127.0.0.1:27017/nextjs-gymgrow"
+const DATABASE = "mongodb+srv://sourabh:sourabh@cluster0.smqxbf2.mongodb.net/next-gym?retryWrites=true&w=majority&appName=Cluster0"
 const SECRETKEY = "HELLOMYNAMEISSOURABHTHAKURFROMHARYANA"
 
 
