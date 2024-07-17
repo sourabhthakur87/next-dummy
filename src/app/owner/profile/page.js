@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-export default function page() {
+export default function Page() {
     const [ownerData, setOwnerData] = useState("")
 
     const getOwnerData = async () => {
